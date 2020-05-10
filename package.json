@@ -1,6 +1,6 @@
 {
   "name": "deploytest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "electron .",
     "deploy": "electron-builder build --mac --publish always",
-    "build": "electron-builder"
+    "build": "electron-builder build --mac --win --publish never"
   },
   "author": "",
   "license": "ISC",
